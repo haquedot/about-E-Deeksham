@@ -1,11 +1,12 @@
 body {
     font-family: 'Poppins', sans-serif;
-    padding:0;
-    margin:0;
+    padding: 0;
+    margin: 0;
 }
 
 
 /* ==================================================== Header start ====================================================*/
+
 .heading-section {
     /* background-color:  rgb(236, 249, 243);
      */
@@ -15,7 +16,7 @@ body {
     display: flex;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
-    background-color:  rgb(236, 249, 243);
+    background-color: rgb(236, 249, 243);
     padding-top: 20px;
     height: 105px;
     color: rgb(10, 10, 133);
@@ -41,6 +42,7 @@ body {
     width: 37%;
     margin-top: 10px;
 }
+
 
 /* /============================================================= Header end ========================================================/ */
 
@@ -114,7 +116,6 @@ body {
     width: 100%;
     height: 100%;
     margin-top: -7px;
-
 }
 
 .dropdown button {
@@ -158,45 +159,49 @@ body {
     color: white;
     z-index: 2;
 }
-.img-div{
+
+.img-div {
     width: 100%;
-  }
-  .img-about{
-    width:100% ;
-    height:244px;
+}
+
+.img-about {
+    width: 100%;
+    height: 244px;
     /* border-top: none; */
-   border-bottom-left-radius: 15px;
-   border-bottom-right-radius: 15px;
-   background-color: white;
-    
-  }
-  .about-eDeeksham{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: white;
+}
+
+.about-eDeeksham {
     display: flex;
-    margin-top: 67px;
-    margin-left: 80px;
-  }
+    padding: 100px;
+}
 
-  .content-part{
+.content-part {
     width: 50%;
-  }
-  .img-part{
-    width: 50%;
+    padding: 40px;
+}
 
-  }
-  .about-img{
+.img-part {
+    width: 50%;
+    padding: 40px;
+}
+
+.about-img {
     position: relative;
     z-index: 2;
-    
-  }
-  .img1{
+}
+
+.img1 {
     width: 490px;
     height: 470px;
     border-radius: 25px;
     margin-left: 35px;
     /* z-index: 2; */
+}
 
-  }
-  .box{
+.box {
     width: 200px;
     height: 190px;
     border-radius: 20px;
@@ -205,5 +210,59 @@ body {
     transform: rotate(-47deg);
     margin-top: -137px;
     margin-left: 378px;
-  }
- 
+}
+
+.vision-mission {
+    width: 100%;
+    padding-top: 100px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    width: 84%;
+    padding: 100px;
+}
+
+.mission {
+    width: 60%;
+    height: 20%;
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    margin-right: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.vision {
+    width: 60%;
+    height: 20%;
+    background-color: #b0c4f4;
+    padding: 40px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.img-vision {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.img-mission {
+    display: flex;
+    height: 40px;
+    width: 40px;
+    background-color: #b0c4f4;
+    padding: 15px;
+    border-radius: 4px;
+}
