@@ -54,7 +54,6 @@ body {
     height: 75px;
     background-color: rgb(8, 8, 111);
     font-size: 18px;
-    padding-top: 15px;
     color: white;
     box-sizing: border-box;
     border-top-right-radius: 15px;
@@ -95,6 +94,11 @@ body {
 .navbar ul li:hover {
     background-color: white;
     color: rgb(8, 8, 111);
+}
+
+.nav-btn {
+    display: flex;
+    align-items: center;
 }
 
 .nav-btn button {
@@ -315,6 +319,7 @@ body {
 
 .footer-second ul {
     margin-top: 20px;
+    padding: 0;
 }
 
 .footer-second li {
@@ -366,6 +371,18 @@ body {
 
 .footer-lower div {
     width: 50%;
+}
+
+.face:hover {
+    color: #003cff;
+}
+
+.tweet:hover {
+    color: #00ccff;
+}
+
+.yt:hover {
+    color: #ff0e0e;
 }
 
 
