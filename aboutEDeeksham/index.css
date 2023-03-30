@@ -1,0 +1,209 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    padding:0;
+    margin:0;
+}
+
+
+/* ==================================================== Header start ====================================================*/
+.heading-section {
+    /* background-color:  rgb(236, 249, 243);
+     */
+}
+
+.header {
+    display: flex;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color:  rgb(236, 249, 243);
+    padding-top: 20px;
+    height: 105px;
+    color: rgb(10, 10, 133);
+}
+
+.header .logo-photo {
+    margin-left: 22px;
+    margin-right: 24px;
+}
+
+.left-div {
+    display: flex;
+    width: 68%;
+    padding-left: 71px;
+}
+
+.right-div {
+    display: flex;
+    width: 25%;
+}
+
+.head-title {
+    width: 37%;
+    margin-top: 10px;
+}
+
+/* /============================================================= Header end ========================================================/ */
+
+
+/* /============================================================= Navbar Start ========================================================/ */
+
+.navbar {
+    display: flex;
+    height: 75px;
+    background-color: rgb(8, 8, 111);
+    font-size: 18px;
+    padding-top: 15px;
+    color: white;
+    box-sizing: border-box;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.navlist {
+    margin-left: 65px;
+    width: 75%;
+}
+
+.navbar ul {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 15px;
+    padding-top: 8px;
+    padding-left: 6px;
+    padding-right: 6px;
+    height: 50px;
+    width: fit-content;
+    /* min-width: 90px; */
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbar ul li:nth-child(1) {
+    width: 70px;
+    padding-left: 5px;
+    margin-right: 0px;
+}
+
+.navbar ul li:hover {
+    background-color: white;
+    color: rgb(8, 8, 111);
+}
+
+.nav-btn button {
+    background: none;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+    border-color: aliceblue;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.nav-btn button:hover {
+    background-color: aliceblue;
+    color: rgb(10, 10, 133);
+}
+
+.dropdown {
+    width: 100%;
+    height: 100%;
+    margin-top: -7px;
+
+}
+
+.dropdown button {
+    background: none;
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+
+.dropdown button:hover {
+    color: rgb(10, 10, 133);
+}
+
+.dropdown:hover .dropdown-options {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(8, 8, 111);
+    width: 130px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    color: white;
+    /* border: 1px solid black; */
+}
+
+.dropdown:hover .dropdown-options a {
+    text-decoration: none;
+    padding-left: 10px;
+    color: white;
+}
+
+.dropdown:hover .dropdown-options a:hover {
+    background-color: rgb(253, 253, 253);
+    color: rgb(10, 10, 133);
+}
+
+.dropdown-options {
+    display: none;
+    position: absolute;
+    color: white;
+    z-index: 2;
+}
+.img-div{
+    width: 100%;
+  }
+  .img-about{
+    width:100% ;
+    height:244px;
+    /* border-top: none; */
+   border-bottom-left-radius: 15px;
+   border-bottom-right-radius: 15px;
+   background-color: white;
+    
+  }
+  .about-eDeeksham{
+    display: flex;
+    margin-top: 67px;
+    margin-left: 80px;
+  }
+
+  .content-part{
+    width: 50%;
+  }
+  .img-part{
+    width: 50%;
+
+  }
+  .about-img{
+    position: relative;
+    z-index: 2;
+    
+  }
+  .img1{
+    width: 490px;
+    height: 470px;
+    border-radius: 25px;
+    margin-left: 35px;
+    /* z-index: 2; */
+
+  }
+  .box{
+    width: 200px;
+    height: 190px;
+    border-radius: 20px;
+    background-color: rgb(248, 198, 173);
+    position: absolute;
+    transform: rotate(-47deg);
+    margin-top: -137px;
+    margin-left: 378px;
+  }
+ 
